@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+        <p>Comando <code>document.getsElementById('teste')</code> é escrito em linguagem JavaScript</p>
+        <pre>
+            <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print (f'O número {num} é par')
+            else
+                print (f'O número {num} é impar')
+            print('Fim do programa!')
+            </code>
+        </pre> <!--A tag Code não identa o código, sendo então necessário colocar a mesma dentro de outra Tag a Tag pre-->
+    <h2>Citações simples</h2>
+        <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p> <!--O porque de usar-se a tag q ao invés de aspas, o Html5 trabalha com sentido sendo assim a tag q passa o sentido que queremos dar que é de citação.-->
+    <h2>Citações completas</h2>
+        <p>Segundo Prof. Ruy Piehowiak, no seu livro Cálculo Diferencial e Integral:</p>
+        <blockquote cite="https://www.uniasselvi.com.br/extranet/layout/request/trilha/materiais/livro/livro.php?codigo=1886">
+            Lê-se o limite da função f(x) quando x tende para + ∞ é 1, assim como o
+            limite da função f(x) quando x tende para - ∞. Ou ainda, quando x → + ∞, f(x) → 1 e
+            quando x → - ∞, f(x) → 1 
+        </blockquote> <!--Essa forma de citação aparece identada, o parâmetro 'cite' não faz nenhuma mudança visual ou gera hiperlink para ser criado, mas o mesmo passa aos mecânimos internos referênciando que a frase foi tirada do endereço linkado no parâmetro.-->
+        <h2>Abreviações</h2>
+            <p>Estou estudando <abbr title="Hipertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+        <h2>Texto invertido</h2>
+            <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>
