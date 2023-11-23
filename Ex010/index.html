@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mídias HTML5</title>
 </head>
 <body>
-    
+    <!--Aprender a fazer múltiplas imagens-->
+    <!--Formatar vários tamanhos de imagens para fazer responsividade, imagens grandes (1000x1000), médias (700x700) e pequenas (300x300). Deixar imagens grandes o site fica lento e o google pelo mecanismo SEO pune o site. -->
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Pequena.jpg" type="image/jpg">
+
+        <source media="(max-width: 1050px)" srcset="imagens/Média.jpg" type="image/jpg">
+
+        <img src="Imagens/Grande.jpg" alt="Imagem Flexível">
+    </picture> <!--Tag que define a responsividade, definio 50 pixels a mais do tamanho da imagem para referirs ao tamanho da barra de rolagem-->
 </body>
 </html>
