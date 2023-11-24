@@ -9,7 +9,20 @@
     <h1>Reproduzindo áudio</h1>
     <p>Vamos reproduzir áudios em HTML5</p>
     <audio 
-        src="audio.mp3" controls autoplay></audio>
+        src="audio.mp3" controls autoplay>
+    </audio>
+    <br>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <video src="video.mp4" controls autoplay loop style="width: 500px">
+    </video>
+    <!--Hospedar vídeos localmente pode gerar grande custo para o cliente-->
+
+    <!--Colocar vários formatos pois cada navegador pode processar um formato diferente-->
+
+    <h1>Inserindo vídoes do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=_Cvy_qePiRbLCc1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!--Dessa forma aumenta o SEO do site, visto que o Youtube é o 2° maior buscador, além do fato de que o vídeo está alocado no servidor do Youtube, gerando menos custo para o cliente.-->
 
 </body>
 </html>
