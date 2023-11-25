@@ -15,4 +15,14 @@ p{  text-align: justify;
     font-size: 15px;
     margin-right: 300px;
     margin-left: 300px;}
+ul {
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+li img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
 
