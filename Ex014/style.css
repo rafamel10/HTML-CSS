@@ -1,0 +1,13 @@
+@charset "UTF-8"
+body {
+    background-color: aqua; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20 px;s
+}
+h1 { color: rgb(255, 255, 255); 
+    background-color: darkolivegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h2 {color: blue;
+    font-family: Arial, Helvetica, sans-serif;}
+p {text-align: justify;}
+/*aqui dentro você define as caracteríiticas de cada tag dos seus documentos*/
